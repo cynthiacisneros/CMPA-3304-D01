@@ -1,137 +1,45 @@
 <!DOCTYPE html>
-
-<!--
-
-INSTRUCTIONS: HOW TO CHANGE THIS PAGE:
-
-1. Change "Student Name" in the title above to your real name.
-
-2. Change "Your Name" in the big heading below to your real name.
-
-3. Change "your-username" to your real GitHub username in both links.
-
-4. Change "your-repo-name" to the name of this repository.
-
-5. Change "Course Name" to the name of your class.
-
-6. Change "Semester Year" to match when you are taking this class.
-
-7. Add links to your work:
-    - Find the words that say "Exercise 01", "Assignment 01", etc.
-    - Between the quote marks in href="", put the relative link to your work in the subfolder. You can simply link to the subfolder name. Take a look at the example folders and links to see how to do this.
-    - For work not yet started/completed, you can leave the href="" blank until you are ready.
-    - Change the words "Exercise 01" to match the name of the exercise. Do the same for assignments and projects. If you add your discussion posts, do the same for them.
-    - Do this for each piece of work you finish.
-
-8. You can add more links by copying a whole line like this:
-    <li><a href="">New Work Name</a></li>
-    Then paste it below the last one in that section.
-
-9. Save your changes and push to GitHub when you are done. Remember you can use GitHub Desktop to help you with this.
-
-Remember: During the course, if you want, you can style your homepage to introduce your own style and aesthetics. To start, keep this page simple and plain. This is just a template to get you started. Embrace the handcrafted approach to web design and development: change things to make them your own.
-
-Remember: You must have a GitHub account, a new GitHub repository for this course, and this file (index.html) in that repository. 
-
-Remember: You must create subfolders for each piece of coursework as the semester progresses.
-
--->
-
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Course Homepage template</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cynthia L. Cisneros - Course Homepage</title>
-    </head>
 
-    <body>
-        <header>
-            <h1>Cynthia L. Cisneros</h1>
-            <h2>Course Homepage</h2>
-            <p>CMPA-3304-D01- 2025</p>
-            <p>This is my homepage for the course.</p>
-            <p>My links take you to my coursework.</p>
-            <nav>
-                <a href="https://github.com/cynthiacisneros">My GitHub Profile</a>
-                |
-                <a href="https://github.com/cynthiacisneros/CMPA-3304-D01">
-                    My Course Repository
-                </a>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 04 Exercise 01 - My Dev Tools Vandalism</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
 
-        <main>
-            <section>
-                <h2>Exercises</h2>
-                <ul>
-                    <li>
-                        <a href="example-exercise-00/">Example Exercise 00</a>
-                    </li>
-                    <li><a href="week 03-exercise 01/index.html">Exercise 01</a></li>
-                    <li><a href="">Exercise 02</a></li>
-                    <li><a href="">Exercise 03</a></li>
-                </ul>
-            </section>
+<body>
+    <main>
+        <h1>My Dev Tools Vandalism</h1>
+        <p>
+            I used browser developer tools to temporarily "vandalize" Chick-fila's
+            website. Below is a screenshot showing my changes. These edits
+            only appeared on my computer and did not affect the actual
+            website.
+        </p>
+        <div class="screenshot-container">
+            <!-- 
+                IMPORTANT: Update the src attribute below to match your screenshot filename.
+                Example: If your screenshot is named "apple-dot-com-but-with-papyrus-font.png", change the line to:
+                src="./apple-dot-com-but-with-papyrus-font.png"
+            -->
+            <img src="devtools-vandalism-screenshot.png" alt="Screenshot of the webpage I vandalized" />
+        </div>
+        <h2>What I "Vandalized"</h2>
+        <p>
+            Describe the changes you made to the website using the browser's developer tools. Some potential questions
+            to consider:
+        <ul>
+            <li>What text did you edit? The company is currently promoting their pretzel bread chicken sandwhich. I edited the name of the sandwich, and the text descriptor over top.</li>
+            <li>What CSS properties did you modify? I modified the font sizes of the text and the colors. I also changed the justify-direction of the border-box. </li>
+            <li>What made your edits interesting or amusing? I changed out the name of the sandwich, for a known saying, "winner winner chicken dinner." I often use that phrase with friends and family, it makes me laugh. The texts I used made me happy overall.</li>
+            <li>Did you understand why some changes worked and some didn't? No, I tried to change the background color, but the website has so many colors, in diffrent locations, I wasn't sure what color belonged to where.</li>
+            <li>Why did you choose the changes you did? The webiste homepage had many images and text as you scrolled down the page. The area I chose to edit is front and center.</li>
+            <li>Were you able to understand how the HTML and CSS worked together to make the changes you made? Yes, for the most part, I understood how these changes work together.</li>
+            <li>Do you think you have a better sense of how dev tools can be used while crafting your own webpages? Yes, dev tools will be most helpful once I advance my web developer skills.</li>
+        </ul>
+        </p>
+    </main>
+</body>
 
-            <section>
-                <h2>Assignments</h2>
-                <ul>
-                    <li>
-                        <a href="example-assignment-00/">
-                            Example Assignment 00
-                        </a>
-                    </li>
-                    <li><a href="assignment-01/index.html"> Assigment 01 </a>a> </li>
-                    <li><a href="">Assignment 02</a></li>
-                    <li><a href="">Assignment 03</a></li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Projects</h2>
-                <ul>
-                    <li>
-                        <a href="example-project-00/">Example Project 00</a>
-                    </li>
-                    <li><a href="">Project 01</a></li>
-                    <li><a href="">Project 02</a></li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Discussions</h2>
-                <p>
-                    I can optionally create a subfolder for each course
-                    discussion post I make. If I want to, I can copy my
-                    discussion post's content, create a new
-                    <code>index.html</code>
-                    file in the subfolder, and then paste the content. After
-                    pasting, I can create an HTML and CSS page out of my
-                    discussion post.
-                </p>
-                <p>
-                    I remember that this is entirely optional, unlike for the
-                    other coursework! However, it is a good way to practice your
-                    HTML and CSS skills, and it is a good way to share your
-                    thoughts and ideas.
-                </p>
-                <ul>
-                    <li>
-                        <a href="example-discussion-00/">
-                            Example Discussion 00
-                        </a>
-                    </li>
-                    <li><a href="../index.html">Discussion 01</a></li>
-                    <li><a href="">Discussion 02</a></li>
-                    <li><a href="">Discussion 03</a></li>
-                </ul>
-            </section>
-        </main>
-
-        <footer>
-            <p>&copy; 2025 Cynthia L. Cisneros</p>
-        </footer>
-    </body>
 </html>
