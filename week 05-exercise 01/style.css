@@ -87,3 +87,57 @@ button {
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.button-03 {
+    background-color: #D97706;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #D97706;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+}
+
+.button-03:hover {
+    transform: translateX(40px); /*slides right*/
+}
+
+.button-04 {
+    background-color: #9333EA;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #9333EA;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.button-04:hover {
+    opacity: 1;
+}
+
+.button-05 {
+    background-color: #DC2626;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #DC2626;
+    box-shadow: 0 0 8px rgba(220, 38, 38, 0);
+    transition: box-shadow 0.3s ease;
+}
+
+.button-05:hover {
+    box-shadow: 0 0 19px rgba(228, 112, 112, 0.8);
+}
+
+.button-06 {
+    background-color: #eb25c7;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #e46ed2;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button-06:hover {
+    transform: scale(1.5);
+    background-color: #4ab4e9;
+    border: 2px solid #76c5ec;
+}
